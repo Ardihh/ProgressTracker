@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvNamaMahasiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iqbal"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20" />
+
+        <TextView
+            android:id="@+id/tvSks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="90 / 144 SKS"
+            android:textSize="14sp"
+            android:textColor="#388E3C"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvIpk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IPK: 3.75"
+            android:textSize="14sp"
+            android:textColor="#66BB6A"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
